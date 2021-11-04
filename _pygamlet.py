@@ -20,5 +20,10 @@ class PyGamlet:
         pyglet.app.run()
 
     def on_draw(self):
-        if callable(self.on_draw_func):
-            self.on_draw_func()
+        pass
+
+
+if __name__ == "__main__":
+
+    pyg = PyGamlet()
+    pyg.run()
